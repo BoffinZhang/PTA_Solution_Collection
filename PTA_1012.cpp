@@ -1,5 +1,6 @@
 // 1012 The Best Rank
-// 以ID作为键值创建map，分别依据各科Score排序，更新最小键值
+// 重写cmp函数，分3种情况排序，注意分数相同对排序的影响
+
 #include <algorithm>
 #include <cstdlib>
 #include <iostream>
